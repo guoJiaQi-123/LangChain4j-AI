@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-03-StreamChat/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-04-image/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-05-generateimage/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-06-chatmemory/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-07-chatmemory-mapdb/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-08-prompt/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-09-structure/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

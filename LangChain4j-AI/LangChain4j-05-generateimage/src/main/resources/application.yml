@@ -1,0 +1,11 @@
+logging:
+  level:
+    dev:
+      langchain4j: DEBUG
+      ai4j:
+        openai4j: DEBUG
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB

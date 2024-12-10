@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b6e42d2-8ac1-43a9-8a81-dfaf78327977" name="更改" comment="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储">
+      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/LangChain4jApplicationPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/config/LLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/service/IServiceAssistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/test/java/com/tyut/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/LangChain4jApplicationStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/config/LLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/service/INumberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/service/IServiceAssistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/test/java/com/tyut/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2pnXpERkpj34IdN3jEk0tGkzZKN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP 请求.generated-requests | #5.executor": "Run",
+    "JUnit.AppTest.test.executor": "Run",
+    "JUnit.AppTest.test2 (1).executor": "Run",
+    "JUnit.AppTest.test2.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.LangChain4jApplication.executor": "Run",
+    "Spring Boot.LangChain4jApplicationChatMemory.executor": "Debug",
+    "Spring Boot.LangChain4jApplicationGenerateImage.executor": "Run",
+    "Spring Boot.LangChain4jApplicationImage.executor": "Run",
+    "Spring Boot.LangChain4jApplicationLLM (1).executor": "Run",
+    "Spring Boot.LangChain4jApplicationLLM.executor": "Run",
+    "Spring Boot.LangChain4jApplicationPrompt.executor": "Run",
+    "Spring Boot.LangChain4jApplicationStream.executor": "Run",
+    "Spring Boot.LangChain4jApplicationStructure.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/GitHub代码仓库/langChain4J-AI/LangChain4j-AI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub代码仓库\langChain4J-AI\LangChain4j-AI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LangChain4jApplicationStructure">
+    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-07-chatmemory-mapdb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.AppTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-06-chatmemory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.AppTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LangChain4jApplicationChatMemory" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-07-chatmemory-mapdb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationChatMemory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LangChain4jApplicationImage" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-04-image" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationImage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LangChain4jApplicationPrompt" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-08-prompt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationPrompt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LangChain4jApplicationStructure" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-09-structure" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LangChain4jApplicationStructure" />
+        <item itemvalue="Spring Boot.LangChain4jApplicationPrompt" />
+        <item itemvalue="Spring Boot.LangChain4jApplicationImage" />
+        <item itemvalue="Spring Boot.LangChain4jApplicationChatMemory" />
+        <item itemvalue="JUnit.AppTest.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6b6e42d2-8ac1-43a9-8a81-dfaf78327977" name="更改" comment="" />
+      <created>1733402997262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733402997262</updated>
+      <workItem from="1733402998070" duration="3209000" />
+      <workItem from="1733443104099" duration="7278000" />
+      <workItem from="1733537877174" duration="1343000" />
+      <workItem from="1733539306264" duration="12712000" />
+      <workItem from="1733725987168" duration="3304000" />
+      <workItem from="1733730682068" duration="533000" />
+      <workItem from="1733731303028" duration="2361000" />
+      <workItem from="1733789301474" duration="3383000" />
+    </task>
+    <task id="LOCAL-00001" summary="「新增」LangChain - AI chat文本demo">
+      <option name="closed" value="true" />
+      <created>1733406239240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733406239240</updated>
+    </task>
+    <task id="LOCAL-00002" summary="「新增」LangChain - AI chat文本 &gt;&gt; 阿里百炼模型">
+      <option name="closed" value="true" />
+      <created>1733450352859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733450352859</updated>
+    </task>
+    <task id="LOCAL-00003" summary="「新增」LangChain4j高级API - AI chat文本">
+      <option name="closed" value="true" />
+      <created>1733450370174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733450370174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="「新增」LangChain4j流式高级API - AI chat文本">
+      <option name="closed" value="true" />
+      <created>1733450386921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733450386921</updated>
+    </task>
+    <task id="LOCAL-00005" summary="「新增」LangChain4j高级API - AI 视觉理解">
+      <option name="closed" value="true" />
+      <created>1733450410660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733450410660</updated>
+    </task>
+    <task id="LOCAL-00006" summary="「更新」LangChain4j入门">
+      <option name="closed" value="true" />
+      <created>1733573182686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573182686</updated>
+    </task>
+    <task id="LOCAL-00007" summary="「更新」LangChain4j高级">
+      <option name="closed" value="true" />
+      <created>1733573198644</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573198644</updated>
+    </task>
+    <task id="LOCAL-00008" summary="「更新」LangChain4j流式输出">
+      <option name="closed" value="true" />
+      <created>1733573208232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573208232</updated>
+    </task>
+    <task id="LOCAL-00009" summary="「更新」LangChain4j视觉理解">
+      <option name="closed" value="true" />
+      <created>1733573217954</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573217954</updated>
+    </task>
+    <task id="LOCAL-00010" summary="「新增」LangChain4j文生图">
+      <option name="closed" value="true" />
+      <created>1733573234123</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573234123</updated>
+    </task>
+    <task id="LOCAL-00011" summary="「新增」LangChain4j 聊天记忆">
+      <option name="closed" value="true" />
+      <created>1733573243496</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573243496</updated>
+    </task>
+    <task id="LOCAL-00012" summary="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储">
+      <option name="closed" value="true" />
+      <created>1733573262200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733573262200</updated>
+    </task>
+    <task id="LOCAL-00013" summary="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储">
+      <option name="closed" value="true" />
+      <created>1733731115522</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733731115523</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="「新增」LangChain - AI chat文本demo" />
+    <MESSAGE value="「新增」LangChain - AI chat文本 &gt;&gt; 阿里百炼模型" />
+    <MESSAGE value="「新增」LangChain4j高级API - AI chat文本" />
+    <MESSAGE value="「新增」LangChain4j流式高级API - AI chat文本" />
+    <MESSAGE value="「新增」LangChain4j高级API - AI 视觉理解" />
+    <MESSAGE value="「更新」LangChain4j入门" />
+    <MESSAGE value="「更新」LangChain4j高级" />
+    <MESSAGE value="「更新」LangChain4j流式输出" />
+    <MESSAGE value="「更新」LangChain4j视觉理解" />
+    <MESSAGE value="「新增」LangChain4j文生图" />
+    <MESSAGE value="「新增」LangChain4j 聊天记忆" />
+    <MESSAGE value="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储" />
+    <option name="LAST_COMMIT_MESSAGE" value="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储" />
+  </component>
+</project>
