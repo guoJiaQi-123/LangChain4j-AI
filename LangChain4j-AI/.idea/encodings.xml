@@ -19,6 +19,12 @@
     <file url="file://$PROJECT_DIR$/LangChain4j-08-prompt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LangChain4j-09-structure/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LangChain4j-09-structure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangChain4j-10-funcation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangChain4j-10-funcation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangChain4j-11-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangChain4j-11-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangChain4j-12-Qdrant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LangChain4j-12-Qdrant/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

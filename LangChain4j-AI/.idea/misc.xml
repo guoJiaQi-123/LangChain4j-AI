@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/LangChain4j-07-chatmemory-mapdb/pom.xml" />
         <option value="$PROJECT_DIR$/LangChain4j-08-prompt/pom.xml" />
         <option value="$PROJECT_DIR$/LangChain4j-09-structure/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-10-funcation/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-11-search/pom.xml" />
+        <option value="$PROJECT_DIR$/LangChain4j-12-Qdrant/pom.xml" />
       </list>
     </option>
   </component>

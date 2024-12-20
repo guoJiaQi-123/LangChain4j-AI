@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b6e42d2-8ac1-43a9-8a81-dfaf78327977" name="更改" comment="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储">
-      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/LangChain4jApplicationPrompt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/config/LLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/java/com/tyut/service/IServiceAssistant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-08-prompt/src/test/java/com/tyut/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/LangChain4jApplicationStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/config/LLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/controller/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/service/INumberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/service/IServiceAssistant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/java/com/tyut/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LangChain4j-09-structure/src/test/java/com/tyut/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b6e42d2-8ac1-43a9-8a81-dfaf78327977" name="更改" comment="「新增」LangChain4j 集成 funcation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,51 +46,58 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "HTTP 请求.generated-requests | #5.executor": "Run",
-    "JUnit.AppTest.test.executor": "Run",
-    "JUnit.AppTest.test2 (1).executor": "Run",
-    "JUnit.AppTest.test2.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.LangChain4jApplication.executor": "Run",
-    "Spring Boot.LangChain4jApplicationChatMemory.executor": "Debug",
-    "Spring Boot.LangChain4jApplicationGenerateImage.executor": "Run",
-    "Spring Boot.LangChain4jApplicationImage.executor": "Run",
-    "Spring Boot.LangChain4jApplicationLLM (1).executor": "Run",
-    "Spring Boot.LangChain4jApplicationLLM.executor": "Run",
-    "Spring Boot.LangChain4jApplicationPrompt.executor": "Run",
-    "Spring Boot.LangChain4jApplicationStream.executor": "Run",
-    "Spring Boot.LangChain4jApplicationStructure.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/GitHub代码仓库/langChain4J-AI/LangChain4j-AI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;HTTP 请求.generated-requests | #5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.test2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QdrantTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LangChain4jApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationChatMemory.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.LangChain4jApplicationFuncation.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationGenerateImage.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationImage.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationLLM (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationLLM.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationPrompt.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationQdrant.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationStream.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationStructure (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LangChain4jApplicationStructure.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/LangChain4j-AI/LangChain4j-AI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\LangChain4j-AI\LangChain4j-AI" />
       <recent name="F:\GitHub代码仓库\langChain4J-AI\LangChain4j-AI" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LangChain4jApplicationStructure">
-    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LangChain4j-07-chatmemory-mapdb" />
+  <component name="RunManager" selected="JUnit.QdrantTest.test">
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-10-funcation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tyut.*" />
@@ -117,14 +106,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tyut" />
       <option name="MAIN_CLASS_NAME" value="com.tyut.AppTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LangChain4j-06-chatmemory" />
+    <configuration name="QdrantTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-12-Qdrant" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tyut.*" />
@@ -132,16 +121,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tyut" />
-      <option name="MAIN_CLASS_NAME" value="com.tyut.AppTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.QdrantTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LangChain4jApplicationChatMemory" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="LangChain4j-07-chatmemory-mapdb" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationChatMemory" />
+    <configuration name="LangChain4jApplicationFunction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-10-funcation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationFunction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tyut.*" />
@@ -152,9 +141,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LangChain4jApplicationImage" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="LangChain4j-04-image" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationImage" />
+    <configuration name="LangChain4jApplicationQdrant" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-12-Qdrant" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationQdrant" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tyut.*" />
@@ -165,22 +154,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LangChain4jApplicationPrompt" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="LangChain4j-08-prompt" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationPrompt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tyut.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LangChain4jApplicationStructure" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="LangChain4j-09-structure" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationStructure" />
+    <configuration name="LangChain4jApplicationSearch" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="LangChain4j-11-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.LangChain4jApplicationSearch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tyut.*" />
@@ -193,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LangChain4jApplicationStructure" />
-        <item itemvalue="Spring Boot.LangChain4jApplicationPrompt" />
-        <item itemvalue="Spring Boot.LangChain4jApplicationImage" />
-        <item itemvalue="Spring Boot.LangChain4jApplicationChatMemory" />
-        <item itemvalue="JUnit.AppTest.test2" />
+        <item itemvalue="JUnit.QdrantTest.test" />
+        <item itemvalue="Spring Boot.LangChain4jApplicationQdrant" />
+        <item itemvalue="Spring Boot.LangChain4jApplicationSearch" />
+        <item itemvalue="Spring Boot.LangChain4jApplicationFunction" />
+        <item itemvalue="JUnit.AppTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +193,12 @@
       <workItem from="1733730682068" duration="533000" />
       <workItem from="1733731303028" duration="2361000" />
       <workItem from="1733789301474" duration="3383000" />
+      <workItem from="1733796369383" duration="87000" />
+      <workItem from="1733812456946" duration="1920000" />
+      <workItem from="1733819030715" duration="817000" />
+      <workItem from="1733875258522" duration="8100000" />
+      <workItem from="1733962178080" duration="2404000" />
+      <workItem from="1733965010502" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="「新增」LangChain - AI chat文本demo">
       <option name="closed" value="true" />
@@ -322,7 +304,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733731115523</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="「新增」LangChain4j 集成 Qdrant">
+      <option name="closed" value="true" />
+      <created>1733965036691</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733965036691</updated>
+    </task>
+    <task id="LOCAL-00015" summary="「新增」LangChain4j 集成 API search">
+      <option name="closed" value="true" />
+      <created>1733965051460</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733965051460</updated>
+    </task>
+    <task id="LOCAL-00016" summary="「新增」LangChain4j 集成 funcation">
+      <option name="closed" value="true" />
+      <created>1733965065741</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733965065741</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +359,9 @@
     <MESSAGE value="「新增」LangChain4j文生图" />
     <MESSAGE value="「新增」LangChain4j 聊天记忆" />
     <MESSAGE value="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储" />
-    <option name="LAST_COMMIT_MESSAGE" value="「新增」LangChain4j 聊天记忆-基于MapDB实现本地化存储" />
+    <MESSAGE value="「新增」LangChain4j 集成 Qdrant" />
+    <MESSAGE value="「新增」LangChain4j 集成 API search" />
+    <MESSAGE value="「新增」LangChain4j 集成 funcation" />
+    <option name="LAST_COMMIT_MESSAGE" value="「新增」LangChain4j 集成 funcation" />
   </component>
 </project>
